@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
+	"github.com/dynamicguy/samples/WebIM/models"
 	"github.com/gorilla/websocket"
-	"github.com/beego/samples/WebIM/models"
 )
 
 type Subscription struct {

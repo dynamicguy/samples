@@ -17,7 +17,7 @@ package main
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/beego/samples/WebDAV/controllers"
+	"github.com/dynamicguy/samples/WebDAV/controllers"
 )
 
 func main() {

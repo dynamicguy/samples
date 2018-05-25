@@ -18,7 +18,7 @@ package main
 import (
 	"github.com/astaxie/beego"
 	"github.com/beego/i18n"
-	_ "github.com/beego/samples/WebIM/routers"
+	_ "github.com/dynamicguy/samples/WebIM/routers"
 )
 
 const (

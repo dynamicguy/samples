@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/cache"
-	"github.com/beego/samples/shorturl/models"
+	"github.com/dynamicguy/samples/shorturl/models"
 )
 
 var (
@@ -22,6 +22,7 @@ type ShortResult struct {
 type ShortController struct {
 	beego.Controller
 }
+
 // Use Get rather than Post so that we can simulate easier in the browser
 func (this *ShortController) Get() {
 	var result ShortResult
